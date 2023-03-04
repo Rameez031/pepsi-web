@@ -1,0 +1,58 @@
+.navy{
+margin-top: 5%;
+    background-color: #0065c3;
+  position: fixed;
+  z-index: 1;
+}
+.nvbt{
+    color: #fff;
+   background-color: #fff;
+}
+.navlink{
+    color: #fff !important;
+}
+.navlink:hover{
+    color: #fff;
+}
+.navcol{
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.navcol:hover{
+    background-color: #fff;
+}
+
+.bgimg1{
+position: relative;
+
+}
+.sticker{
+ position: absolute;
+
+ top: 15%;left: 35%;
+}
+@media only screen and (max-width: 600px) {
+   .sticker {
+      width: 30%;
+    }
+  }
+.bgcol{
+    background-color: #000;
+    height: 95vh;
+    background-size: cover;
+}
+.bg{
+    display: flex;
+    height: 30%;
+    background-color: #000;
+}
+.bgsld{
+    justify-content: spac;
+}
